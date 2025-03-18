@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+
+body {
+  background-color: #0d0f10;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.bg {
+  position: absolute;
+  opacity: 0.25;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+  height: 20px;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.47);
+}
+
+.team-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.goalie-headshot {
+  width: 42px;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 4px;
+  /* -webkit-box-shadow: 0px 0px 50px 6px rgba(255, 255, 255, 0.16);
+  -moz-box-shadow: 0px 0px 50px 6px rgba(255, 255, 255, 0.16);
+  box-shadow: 0px 0px 50px 6px rgba(255, 255, 255, 0.16); */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 34px;
+  grid-row-gap: 34px;
+}
+
+.match-container {
+  background-color: #21242966;
+  border-radius: 0.75rem;
+  border: solid hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(1px);
+  padding: 32px 20px 20px 20px;
+  min-width: 260px;
+  border-width: 2px thin thin thin;
+}
+
+.team-odds {
+  background-color: #0e78e7;
+  border: 1px solid #4ea4ff;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  min-width: 70px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.bar {
+  width: 100%;
+  position: absolute;
+  height: 6px;
+  background: #ffdc75;
+  left: 0;
+  bottom: 0px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.anaheim-ducks {
+  background-color: #f47a38;
+} /* Anaheim Ducks */
+.arizona-coyotes {
+  background-color: #8c2633;
+} /* Arizona Coyotes */
+.boston-bruins {
+  background-color: #ffb81c;
+} /* Boston Bruins */
+.buffalo-sabres {
+  background-color: #002654;
+} /* Buffalo Sabres */
+.calgary-flames {
+  background-color: #c8102e;
+} /* Calgary Flames */
+.carolina-hurricanes {
+  background-color: #cc0000;
+} /* Carolina Hurricanes */
+.chicago-blackhawks {
+  background-color: #cf0a2c;
+} /* Chicago Blackhawks */
+.colorado-avalanche {
+  background-color: #6f263d;
+} /* Colorado Avalanche */
+.columbus-blue-jackets {
+  background-color: #002654;
+} /* Columbus Blue Jackets */
+.dallas-stars {
+  background-color: #00843d;
+} /* Dallas Stars */
+.detroit-red-wings {
+  background-color: #ce1126;
+} /* Detroit Red Wings */
+.edmonton-oilers {
+  background-color: #ff4c00;
+} /* Edmonton Oilers */
+.florida-panthers {
+  background-color: #041e42;
+} /* Florida Panthers */
+.los-angeles-kings {
+  background-color: #a2aaad;
+} /* Los Angeles Kings */
+.minnesota-wild {
+  background-color: #154734;
+} /* Minnesota Wild */
+.montreal-canadiens {
+  background-color: #af1e2d;
+} /* Montreal Canadiens */
+.nashville-predators {
+  background-color: #ffb81c;
+} /* Nashville Predators */
+.new-jersey-devils {
+  background-color: #ce1126;
+} /* New Jersey Devils */
+.new-york-islanders {
+  background-color: #00539b;
+} /* New York Islanders */
+.new-york-rangers {
+  background-color: #0038a8;
+} /* New York Rangers */
+.ottawa-senators {
+  background-color: #c52032;
+} /* Ottawa Senators */
+.philadelphia-flyers {
+  background-color: #f74902;
+} /* Philadelphia Flyers */
+.pittsburgh-penguins {
+  background-color: #fcb514;
+} /* Pittsburgh Penguins */
+.san-jose-sharks {
+  background-color: #006d75;
+} /* San Jose Sharks */
+.seattle-kraken {
+  background-color: #355464;
+} /* Seattle Kraken */
+.st-louis-blues {
+  background-color: #002f87;
+} /* St. Louis Blues */
+.tampa-bay-lightning {
+  background-color: #002868;
+} /* Tampa Bay Lightning */
+.toronto-maple-leafs {
+  background-color: #00205b;
+} /* Toronto Maple Leafs */
+.vancouver-canucks {
+  background-color: #00205b;
+} /* Vancouver Canucks */
+.vegas-golden-knights {
+  background-color: #b4975a;
+} /* Vegas Golden Knights */
+.washington-capitals {
+  background-color: #c8102e;
+} /* Washington Capitals */
+.winnipeg-jets {
+  background-color: #041e42;
+} /* Winnipeg Jets */
